@@ -82,6 +82,13 @@ button {
     text-align: center;
 }
 
+.quote {
+    display: flex;
+    background-color: #e5e7eb;
+    padding: 138px 210px;
+    flex-direction: column;
+}
+
 .footer {
     height: 100px;
     display: flex;
@@ -128,6 +135,21 @@ button {
     margin: 0;
     text-align: center;
     padding-bottom: 56px;
+}
+
+#quote-text {
+    font-size: 36px;
+    font-weight: 100;
+    font-style: italic;
+    margin: 0;
+}
+
+#quote-person {
+    font-size: 24px;
+    font-weight: 900;
+    margin: 0;
+    margin-right: 28px;
+    text-align: right;
 }
 
 ul {
