@@ -40,6 +40,7 @@ button {
     display: flex;
     background-color: #222831;
     padding: 100px 210px;
+    gap: 16px;
 }
 
 .hero-left {
